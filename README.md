@@ -122,6 +122,13 @@ This project focuses on:
 - Subscription-based delivery  
 
 ---
+## 🔗 References
+
+- https://www.postermywall.com/index.php/posters/search?s=dairy+farm&safe_content=safe
+- https://www.freepik.com/psd/dairy-farm
+- https://www.vecteezy.com/free-vector/dairy-farm
+- https://www.canva.com/templates/s/milk/
+---
 
 ## 📢 Conclusion
 RK Dairy Farm Web Application is a beginner-friendly project that solves a real-world problem by providing a simple and efficient platform for buying fresh dairy products online.
