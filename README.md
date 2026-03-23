@@ -85,7 +85,7 @@ This application connects customers directly with the farm and allows:
 ---
 ## ⏳ Project Duration
 
-**Total Duration:** 25 Days  
+ ## **Total Duration:** 25 Days  
 
 ## 📅 Development Timeline
 
