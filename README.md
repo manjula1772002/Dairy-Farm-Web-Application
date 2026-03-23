@@ -1,6 +1,6 @@
 # 🥛 Dairy Farm Web Application
 
-## 🏡 RK Dairy Farm
+# 🏡 RK Dairy Farm
 
 ---
 
@@ -72,10 +72,10 @@ This application connects customers directly with the farm and allows:
 ### 🎨 Frontend
 - React  
 - Tailwind CSS  
-- React Router  
+- Next.js 
 
-### ⚙️ Backend
-- Supabase  
+### Data base
+- MongoDB  
 
 ### 🧰 Tools
 - VS Code  
@@ -83,7 +83,29 @@ This application connects customers directly with the farm and allows:
 - Vercel / Netlify  
 
 ---
+## ⏳ Project Duration
 
+ ## **Total Duration:** 25 Days  
+
+## 📅 Development Timeline
+
+### 📅 Week 1
+- 🛠️ Project setup  
+- 🎨 UI design (Home, Products)  
+
+### 📅 Week 2
+- ⚙️ Backend setup  
+- 🔐 Login & Authentication  
+
+### 📅 Week 3
+- 🛒 Cart functionality  
+- 📦 Order placement  
+
+### 🚀 Final Days
+- 🧪 Testing  
+- 🐞 Bug fixing  
+- 🌐 Deployment  
+---
 ## 📉 Project
 This project focuses on:
 - Authentication  
@@ -100,11 +122,21 @@ This project focuses on:
 - Subscription-based delivery  
 
 ---
+## 📚 References
+
+- 🎨 [Freepik – Dairy Farm Templates](https://www.freepik.com/psd/dairy-farm)
+- 🖼️ [Vecteezy – Dairy Farm Vectors](https://www.vecteezy.com/free-vector/dairy-farm)
+- 📄 [Canva – Milk Templates](https://www.canva.com/templates/s/milk/)
+---
 
 ## 📢 Conclusion
 RK Dairy Farm Web Application is a beginner-friendly project that solves a real-world problem by providing a simple and efficient platform for buying fresh dairy products online.
 
 ---
+## 👨‍🏫 Mentor
 
+**Anbuselvan Annamalai**
+-----
 ## 👩‍💻 Author
-**Manjula**
+
+## **Manjula**
