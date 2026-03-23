@@ -127,10 +127,10 @@ This project focuses on:
 RK Dairy Farm Web Application is a beginner-friendly project that solves a real-world problem by providing a simple and efficient platform for buying fresh dairy products online.
 
 ---
-## Mentor
+## 👨‍🏫 Mentor
 
 **Anbuselvan Annamalai**
 -----
-
 ## 👩‍💻 Author
-**Manjula**
+
+## **Manjula**
