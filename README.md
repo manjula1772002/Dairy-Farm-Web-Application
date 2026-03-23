@@ -122,11 +122,11 @@ This project focuses on:
 - Subscription-based delivery  
 
 ---
-## 🔗 References
+## 📚 References
 
-- https://www.freepik.com/psd/dairy-farm
-- https://www.vecteezy.com/free-vector/dairy-farm
-- https://www.canva.com/templates/s/milk/
+- 🎨 [Freepik – Dairy Farm Templates](https://www.freepik.com/psd/dairy-farm)
+- 🖼️ [Vecteezy – Dairy Farm Vectors](https://www.vecteezy.com/free-vector/dairy-farm)
+- 📄 [Canva – Milk Templates](https://www.canva.com/templates/s/milk/)
 ---
 
 ## 📢 Conclusion
