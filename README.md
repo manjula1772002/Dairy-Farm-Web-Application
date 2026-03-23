@@ -124,7 +124,6 @@ This project focuses on:
 ---
 ## 🔗 References
 
-- https://www.postermywall.com/index.php/posters/search?s=dairy+farm&safe_content=safe
 - https://www.freepik.com/psd/dairy-farm
 - https://www.vecteezy.com/free-vector/dairy-farm
 - https://www.canva.com/templates/s/milk/
