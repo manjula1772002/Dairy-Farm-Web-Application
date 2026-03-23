@@ -75,7 +75,7 @@ This application connects customers directly with the farm and allows:
 - Next.js 
 
 ### Data base
-- MangoDB  
+- MongoDB  
 
 ### 🧰 Tools
 - VS Code  
