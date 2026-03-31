@@ -135,6 +135,7 @@ RK Dairy Farm Web Application is a beginner-friendly project that solves a real-
 ---
 ## Presentation
 [Presentation](<public/RK DAIRY FARM.pdf>)
+[Presentation WireFr̥ame](<public/Dairy Farm Wireframe.pdf>)
 
 ## 👨‍🏫 Mentor
 

@@ -1,16 +1,20 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Lora, Montserrat } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const lora = Lora({
+  variable: "--font-lora",
   subsets: ["latin"],
+  weight: ["400", "700"], // Regular and Bold
+  style: ["normal", "italic"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const montserrat = Montserrat({
+  variable: "--font-montserrat",
   subsets: ["latin"],
+  weight: ["400", "500", "700"], // Regular, Medium, and Bold
 });
+
 
 export const metadata = {
   title: "RK Dairy Farm",
@@ -21,11 +25,11 @@ export default function RootLayout({ children }) {
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${lora.variable} ${montserrat.variable} h-full antialiased`}
     >
       <body>
         <Header />
-       <section className="min-h-full flex flex-col">{children}</section>
+       <section className="">{children}</section>
         
         </body>
     </html>
