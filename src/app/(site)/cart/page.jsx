@@ -98,7 +98,7 @@ export default function CartPage() {
     paddingRight: "16px",
   }}>
         <div className="max-w-4xl mx-auto text-center">
-          <div className="text-8xl mb-6">🛒</div>
+          
           <h1 className="text-4xl font-bold text-gray-800 mb-4">Your Cart is Empty</h1>
           <p className="text-xl text-gray-600 mb-8">
             Looks like you haven't added any dairy products to your cart yet.
