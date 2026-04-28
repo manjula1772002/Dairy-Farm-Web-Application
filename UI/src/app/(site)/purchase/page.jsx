@@ -1,7 +1,12 @@
 "use client";
 
-import PurchaseForm from "./PurchaseForm";
+import { Suspense } from "react";
+import PurchaseForm from "@/app/(site)/purchase/PurchaseForm";
 
 export default function CartPurchasePage() {
-  return <PurchaseForm />;
+  return (
+    <Suspense fallback={<div>Loading cart checkout...</div>}>
+      <PurchaseForm />
+    </Suspense>
+  );
 }
