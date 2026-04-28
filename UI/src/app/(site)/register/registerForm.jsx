@@ -1,10 +1,11 @@
 "use client";
 
 import FormError from "@/components/ui/forms/FormError";
-import Input from "@/components/ui/forms/Input";
-import Label from "@/components/ui/forms/Label";
+import Input from "@/components/ui/forms/";
+import Label from "@/components/ui/forms/Label.jsx";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
+
 import * as z from "zod";
 
 const schema = z.object({
