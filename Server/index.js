@@ -1,5 +1,5 @@
 import express from "express";
-import cors from "cors";
+// import cors from "cors";
 import "#utils/loadEnvironment";
 import  "#db/connection";
 // import bcrypt from "bcrypt";
@@ -8,13 +8,13 @@ import fs from "fs";
 import path from "path";
 import rateLimit from "express-rate-limit";
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || "http://localhost:5000";
 const app = express();
 
-app.use(cors({
-  origin: "http://localhost:3000",
-  credentials: true
-}));
+// app.use(cors({
+//   // origin: "http://localhost:3000",
+//   credentials: true
+// }));
 app.use(express.json());
 
 app.use("/uploads", express.static(path.join(import.meta.dirname, "uploads")));
@@ -91,5 +91,5 @@ app.use("/", apiRouter);
 
 // listen the server 
 app.listen(PORT, () => {
-  console.log(`Server running at http://localhost:${PORT}`);
+  console.log(`Server running at ${PORT}`);
 });
