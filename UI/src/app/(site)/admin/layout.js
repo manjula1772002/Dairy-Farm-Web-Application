@@ -1,8 +1,8 @@
 "use client";
-import { useAuth } from "@/context/AuthContext";
+import { useAuth } from "/context/AuthContext";
 import { useRouter } from "next/navigation";
 import { useEffect } from "react";
-import Layout from "@/components/admin/layout/layout.js";
+import Layout from "/components/admin/layout/layout.js";
 // import AuthProvider from "@/context/AuthProvider";
 
 export default function AdminLayout({ children }) {

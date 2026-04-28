@@ -1,8 +1,8 @@
 "use client";
 
-import FormError from "@/components/ui/forms/FormError";
-import Input from "@/components/ui/forms/";
-import Label from "@/components/ui/forms/Label.jsx";
+import FormError from "@/components/ui/Forms/FormError";
+import Input from "@/components/ui/Forms/Input";
+import Label from "@/components/ui/Forms/Label";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 

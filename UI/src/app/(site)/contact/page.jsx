@@ -2,9 +2,9 @@
 
 import { useState } from "react";
 import { z } from "zod";
-import Input from "@/components/ui/Forms/Input";
-import Label from "@/components/ui/Forms/Label";
-import TextArea from "@/components/ui/Forms/Textarea";
+import Input from "/components/ui/Forms/Input";
+import Label from "/components/ui/Forms/Label";
+import TextArea from "/components/ui/Forms/Textarea";
 
 const contactSchema = z.object({
   name: z.string().min(1, "Name is required"),

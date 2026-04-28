@@ -1,7 +1,7 @@
 "use client";
 
-import { useAdminOrders } from "@/components/admin/hooks/useAdminOrders";
-import { formatPrice } from "@/components/admin/utils";
+import { useAdminOrders } from "/components/admin/hooks/useAdminOrders";
+import { formatPrice } from "/components/admin/utils";
 
 const ORDER_STATUS = [
   "Pending",

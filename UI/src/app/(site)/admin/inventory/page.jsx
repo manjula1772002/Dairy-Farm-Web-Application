@@ -1,6 +1,6 @@
 "use client";
 
-import AdminInventoryPage from "./AdminInventoryPage.jsx";
+import AdminInventoryPage from "@/AdminInventoryPage.jsx";
 
 export default function Inventory() {
   return <AdminInventoryPage />;
