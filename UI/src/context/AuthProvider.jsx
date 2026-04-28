@@ -1,7 +1,7 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import { AuthContext } from "@/AuthContext";
+import { AuthContext } from "./AuthContext";
 import { useCallback, useEffect, useState } from "react";
 
 export default function AuthProvider({ children }) {

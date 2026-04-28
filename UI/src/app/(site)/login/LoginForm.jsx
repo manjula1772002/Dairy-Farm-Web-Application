@@ -1,13 +1,13 @@
 "use client";
 
 import FormError from "@/components/ui/Forms/FormError";
-import Input from "@/components/ui/Forms";
+import Input from "@/components/ui/Forms/Input";
 import Label from "@/components/ui/Forms/Label";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import * as z from "zod";
 import { useRouter } from "next/navigation";
-import { useAuth } from "/context/AuthContext";
+import { useAuth } from "@/context/AuthContext";
 
 const schema = z.object({
   email: z.email("Invalid email address"),
