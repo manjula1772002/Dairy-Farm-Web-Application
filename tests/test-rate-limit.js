@@ -1,5 +1,5 @@
 // test-rate-limit.mjs
-const BASE_URL = process.env.BASE_URL || "http://localhost:5000/";
+const BASE_URL = process.env.BASE_URL || "http://localhost:5000";
 const TOTAL_REQUESTS = Number(process.env.TOTAL || 110);
 
 let okCount = 0;
