@@ -6,7 +6,7 @@ import  "#db/connection";
 import apiRouter from "#routers/index.route";
 import fs from "fs";
 import path from "path";
-// import rateLimit from "express-rate-limit";
+import rateLimit from "express-rate-limit";
 
 const PortNo=5000;
 const PORT = process.env.PORT || `http://localhost:${PortNo}`;
@@ -16,7 +16,7 @@ const proxyNo=3000;
 const proxy=process.env.PROXY_URL || `http://localhost:${proxyNo}`;
 
 app.use(cors({
-  origin: `${proxy}`,
+  // origin: `${proxy}`,
   credentials: true
 }));
 app.use(express.json());
@@ -28,18 +28,18 @@ if (!fs.existsSync(uploadsDir)) {
   fs.mkdirSync(uploadsDir);
 }
 // rate limiter
-// const limiter = rateLimit({
-//   windowMs: 15 * 60 * 1000, // 15 minutes
-//   max: 100, // Limit each IP to 100 requests per `window`
-//   message: "Too many requests, please try again later.",
-//   standardHeaders: true, // Return rate limit info in `RateLimit-*` headers
-//   legacyHeaders: false, // Disable `X-Rate-Limit-*` headers
-// });
+const limiter = rateLimit({
+  windowMs: 15 * 60 * 1000, // 15 minutes
+  max: 100, // Limit each IP to 100 requests per `window`
+  message: "Too many requests, please try again later.",
+  standardHeaders: true, // Return rate limit info in `RateLimit-*` headers
+  legacyHeaders: false, // Disable `X-Rate-Limit-*` headers
+});
 
-// limiter.resetKey("::ffff:");
+limiter.resetKey("::ffff:");
 
 // Apply the rate limiter to all requests
-// app.use(limiter);
+app.use(limiter);
 
 
 // Routers
